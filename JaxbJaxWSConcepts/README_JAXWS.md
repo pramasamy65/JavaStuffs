@@ -2,7 +2,8 @@
 JAX-WS
 
   Java API for XML web services
-	If we are using JAX-WS API then web services uses SOAP messages to communicate each other
+  
+ 	If we are using JAX-WS API then web services uses SOAP messages to communicate each other
 	SOAP messages are platform independent
 	SOAP is XML based
 	This is Java's standard API for working with XML-based web services
@@ -13,24 +14,29 @@ JAX-WS
 	
 	Ways to build web services
 		TOP-Down
-			In a top-down (contract-first) approach, a WSDL document is created, and the necessary Java classes are generated from the WSDL. 
+			In a top-down (contract-first) approach, a WSDL document is created, and the necessary 
+			Java classes are generated from the WSDL. 
 		Bottom-Up
-			In a bottom-up (contract-last) approach, the Java classes are written, and the WSDL is generated from the WSDL
+			In a bottom-up (contract-last) approach, the Java classes are written, and the WSDL is 
+			generated from the WSDL
 	WSDL
 		Defines structure of the content of SOAP messages and operations
 		Definitions
-			 Definitions element is the root element of all WSDL documents. It defines the name, the namespace, etc
+			 Definitions element is the root element of all WSDL documents. It defines the name, 
+			 the namespace, etc
 		Types
 			Data types used by the web service. WSDL uses XSD (XML Schema Definition) as the type
 		Messages
 			Each message element describes the input or output of a service method and the possible exceptions
 		Operations and Port Types
-			The portType element describes each operation that can be performed and all the message elements involved
+			The portType element describes each operation that can be performed and all the message 
+			elements involved
 		Bindings
 			The binding element provides protocol and data format details for each portType:
 		Services and Ports
 		
 Top-Down (Contract-First) Approach
+
 		Create WSDL and use wsimport to generate WS source files
 		
 		wsimport http://localhost:8080/purchaseOrder?wsdl
