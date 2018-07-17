@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<purchaseOrder>
+    <coment>No Comments</coment>
+    <custoemr>
+        <name>John Peter</name>
+    </custoemr>
+    <items>
+        <itemId>100</itemId>
+        <itemName>Marker</itemName>
+    </items>
+    <items>
+        <itemId>100</itemId>
+        <itemName>Marker</itemName>
+    </items>
+</purchaseOrder>
